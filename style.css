@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    flex: 2 3;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.signup{
+    background-color: ghostwhite;
+}
+
+.description{
+    margin-top: 100px;
+}
+.description, .description+div{
+    padding-left: 50px;
+}
+.description, .description+div, .details>div:first-child{
+    font-size: 24px;
+    font-weight: bold;
+    width: 75%;
+    margin-bottom: 50px;
+}
+.details{
+    background-color: #fff;
+    padding: 24px 50px;
+    box-shadow: 0px 3px 3px #e0e0e0;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+form>div{
+    margin-bottom: 24px;
+    width: 40%;
+}
+form>div>*{
+    display: block;
+}
+
+input{
+    width: 80%;
+    border: 1px solid #ccc;
+    height: 24px;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+button, .signup>div:last-child{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+button{
+    padding: 16px 48px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: #596d48;
+    font-size: 16px;
+}
+
+.signup>div:last-child>span{
+    color: #596d48;
+}
+
+.left {
+    position: relative; /* Establishes a positioning context for child elements */
+    width: 50vw;       /* Set width of the container */
+    height: 100vh;      /* Set height of the container */
+  }
+  
+.left img {
+width: 100%;        /* Make image fill the container */
+height: 100%;       /* Make image fill the container */
+object-fit: cover;  /* Maintain aspect ratio */
+}
+  
+.logo{
+position: absolute;
+display: flex;
+top: 30vh;      
+width: 100%;     /* Adjust based on desired position */         
+background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+color: white;        /* Text color */
+height: 150px;
+justify-content: center;
+align-items: center;
+font-size: 64px;
+font-weight: bold;
+}
+
+.logo img{
+    height: 120px;
+    width: auto;
+    margin-right: 20px;
+}
+
+footer {
+position: absolute;
+display: flex;
+justify-content: center;
+bottom: 10px;        /* Position at the bottom */
+width: 100%;
+color: white;        /* Text color */
+align-items: center;
+}
+
+footer >small{
+    text-align: center;
+}
+  
+footer>small>a{
+    color: #fff;
+}
