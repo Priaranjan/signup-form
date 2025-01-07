@@ -44,7 +44,7 @@ form>div>*{
 
 input{
     width: 80%;
-    border: 1px solid #ccc;
+    border: 1px solid #E5E7EB;
     height: 24px;
     border-radius: 4px;
     margin-top: 8px;
@@ -118,3 +118,15 @@ footer >small{
 footer>small>a{
     color: #fff;
 }
+
+input:invalid{
+    border-color: red;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0px 0px 4px #222;
+}
+
+
