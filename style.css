@@ -8,7 +8,7 @@ body{
 
 @font-face {
     font-family: Norse-Bold;
-    src: url(../Fonts/Norse-Bold.otf);
+    src: url(./Fonts/Norse-Bold.otf);
 }
 
 .logo > span{
