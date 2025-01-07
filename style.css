@@ -6,6 +6,15 @@ body{
 
 }
 
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../Fonts/Norse-Bold.otf);
+}
+
+.logo > span{
+    font-family: Norse-Bold, sans-serif;
+    font-size: 108px;
+}
 .signup{
     background-color: ghostwhite;
 }
